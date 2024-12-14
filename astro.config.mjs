@@ -49,86 +49,134 @@ export default defineConfig({
         {
           label: "Getting Started",
           collapsed: true,
-          autogenerate: {
-            directory: "Introduction",
-          },
+          items: [
+            {
+              label: "Introduction to Astro",
+              slug: "introduction/astro",
+            },
+            // A nested group of links.
+          ],
         },
         {
           label: "Chapter One",
           collapsed: true,
-          autogenerate: {
-            directory: "One",
-          },
+          items: [
+            {
+              label: "Why I Left WordPress",
+              slug: "one/wordpress",
+            },
+            // A nested group of links.
+          ],
         },
         {
           label: "Chapter Two",
           collapsed: true,
-          autogenerate: {
-            directory: "Two",
-          },
+          items: [
+            {
+              label: "Choosing Themes",
+              slug: "two/themes",
+            },
+            // A nested group of links.
+          ],
         },
         {
           label: "Chapter Three",
           collapsed: true,
-          autogenerate: {
-            directory: "Three",
-          },
+          items: [
+            {
+              label: "Using VS Code",
+              slug: "three/code-editor",
+            },
+            // A nested group of links.
+          ],
         },
         {
           label: "Chapter Four",
           collapsed: true,
-          autogenerate: {
-            directory: "Four",
-          },
+          items: [
+            {
+              label: "Adding Icons",
+              slug: "four/icons",
+            },
+            // A nested group of links.
+          ],
         },
         {
           label: "Chapter Five",
           collapsed: true,
-          autogenerate: {
-            directory: "Five",
-          },
+          items: [
+            {
+              label: "Adding Fonts",
+              slug: "five/fonts",
+            },
+            // A nested group of links.
+          ],
         },
         {
           label: "Chapter Six",
           collapsed: true,
-          autogenerate: {
-            directory: "Six",
-          },
+          items: [
+            {
+              label: "Navbar Issues",
+              slug: "six/navbar",
+            },
+            // A nested group of links.
+          ],
         },
         {
           label: "Chapter Seven",
           collapsed: true,
-          autogenerate: {
-            directory: "Seven",
-          },
+          items: [
+            {
+              label: "Non-Updating Code",
+              slug: "seven/code",
+            },
+            // A nested group of links.
+          ],
         },
         {
           label: "Chapter Eight",
           collapsed: true,
-          autogenerate: {
-            directory: "Eight",
-          },
+          items: [
+            {
+              label: "URL Routing",
+              slug: "eight/routing",
+            },
+            // A nested group of links.
+          ],
         },
         {
           label: "Chapter Nine",
           collapsed: true,
-          autogenerate: {
-            directory: "Nine",
-          },
+          items: [
+            {
+              label: "Creating Tag Archives",
+              slug: "nine/tags",
+            },
+            // A nested group of links.
+          ],
         },
         {
           label: "Chapter Ten",
           collapsed: true,
-          autogenerate: {
-            directory: "Ten",
-          },
+          items: [
+            {
+              label: "Redirects Using Netlify",
+              slug: "ten/redirects",
+            },
+            // A nested group of links.
+          ],
         },
         {
           label: "Chapter Eleven",
           collapsed: true,
-          autogenerate: {
-            directory: "Eleven",
-          },
+          items: [
+            {
+              label: "Table of Contents",
+              slug: "eleven/table-of-contents",
+            },
+            // A nested group of links.
+          ],
         },
         {
           label: "Explainers",
@@ -136,27 +184,27 @@ export default defineConfig({
           items: [
             {
               label: "Introduction",
-              link: "/explainers/introduction/",
+              slug: "explainers/introduction",
             },
             {
               label: "TypeScript",
-              link: "/explainers/typescript/",
+              slug: "explainers/typescript",
             },
             {
               label: "Creating Flexible Components",
-              link: "/explainers/flexible-components/",
+              slug: "explainers/flexible-components",
             },
             {
               label: "Using Reference",
-              link: "/explainers/reference/",
+              slug: "explainers/reference",
             },
             {
               label: "Custom CSS in Tailwind",
-              link: "/explainers/custom-css/",
+              slug: "explainers/custom-css",
             },
             {
               label: "All About getCollection and collectionEntry",
-              link: "/explainers/getcollection/",
+              slug: "explainers/getcollection",
             },
             // A nested group of links.
           ],
@@ -167,23 +215,23 @@ export default defineConfig({
           items: [
             {
               label: "Recommended Integrations",
-              link: "/remember/integrations/",
+              slug: "remember/integrations",
             },
             {
               label: "Check for Updates",
-              link: "/remember/updates/",
+              slug: "remember/updates",
             },
             {
               label: "Show Your Support",
-              link: "/remember/support/",
+              slug: "remember/support",
             },
             {
               label: "Final Thoughts on Astro",
-              link: "/remember/final-thoughts/",
+              slug: "remember/final-thoughts",
             },
             {
               label: "Thank You & Further Resources",
-              link: "/remember/thank-you/",
+              slug: "remember/thank-you",
             },
             // A nested group of links.
           ],
@@ -191,9 +239,13 @@ export default defineConfig({
         {
           label: "Addendum",
           collapsed: true,
-          autogenerate: {
-            directory: "Addendum",
-          },
+          items: [
+            {
+              label: "Tailwind CSS",
+              slug: "addendum/tailwind",
+            },
+            // A nested group of links.
+          ],
         },
       ],
     }),
