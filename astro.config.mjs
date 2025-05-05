@@ -41,10 +41,18 @@ export default defineConfig({
         },
       ],
       title: "Newbie-ish Guide to Astro",
-      social: {
-        github: "https://github.com/susansilver",
-        mastodon: "https://mathstodon.xyz/@suzza",
-      },
+      social: [
+        {
+          icon: "github",
+          label: "GitHub",
+          href: "https://github.com/susansilver",
+        },
+        {
+          icon: "mastodon",
+          label: "GitHub",
+          href: "https://mathstodon.xyz/@suzza",
+        },
+      ],
       sidebar: [
         {
           label: "Getting Started",
